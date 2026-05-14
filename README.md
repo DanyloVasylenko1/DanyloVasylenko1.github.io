@@ -12,4 +12,4 @@ Examples of how to use the project.
 
 ### Authors
 
-- Your Names
+- Danylo & Essa
