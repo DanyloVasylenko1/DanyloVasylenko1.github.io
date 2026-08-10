@@ -1,0 +1,20 @@
+Student Name: Daniel
+
+Assignment Mark: 90
+Assignment Weight: 30%
+
+Quiz Mark: 75
+Quiz Weight: 10%
+
+Test Mark: 80
+Test Weight: 10%
+
+Mid-term Mark: 83
+Mid-term Weight: 25%
+
+Final Exam Mark: 71
+Final Exam Weight: 25%
+
+Total Weight: 100.00%
+Final Grade: 81.00
+Letter Grade: A

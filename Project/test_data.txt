@@ -1,0 +1,147 @@
+CPAN 133 - STUDENT GRADE CALCULATOR TEST DATA
+
+TEST 1 - Normal Numerical Input
+
+Student Name: Max Mayfield
+
+Assignment Mark: 85
+Quiz Mark: 90
+Test Mark: 80
+Mid-term Mark: 75
+Final Exam Mark: 88
+
+Assignment Weight: 20
+Quiz Weight: 10
+Test Weight: 20
+Mid-term Weight: 20
+Final Exam Weight: 30
+
+Expected Result:
+Final Grade = 83.40%
+Letter Grade = A
+
+
+TEST 2 - Letter Grade Input
+
+Student Name: Max Mayfield
+
+Assignment Mark: A
+Quiz Mark: B+
+Test Mark: B
+Mid-term Mark: A-
+Final Exam Mark: A
+
+Assignment Weight: 20
+Quiz Weight: 10
+Test Weight: 20
+Mid-term Weight: 20
+Final Exam Weight: 30
+
+Expected:
+Program accepts letter grades and converts them
+to numerical values.
+
+
+TEST 3 - Grade Below Zero
+
+Assignment Mark: -10
+
+Expected:
+Error message.
+Program requests a valid grade from 0-100.
+
+
+TEST 4 - Grade Above 100
+
+Assignment Mark: 105
+
+Expected:
+Error message.
+Program requests a valid grade from 0-100.
+
+
+TEST 5 - Invalid Letter Grade
+
+Assignment Mark: X
+
+Expected:
+Error message.
+Program requests a valid numerical or letter grade.
+
+
+TEST 6 - Weights Below 100%
+
+Assignment: 20
+Quiz: 10
+Test: 20
+Mid-term: 20
+Final Exam: 20
+
+Total = 90%
+
+Expected:
+Error message.
+Weights must total 100%.
+
+
+TEST 7 - Weights Above 100%
+
+Assignment: 30
+Quiz: 20
+Test: 20
+Mid-term: 20
+Final Exam: 20
+
+Total = 110%
+
+Expected:
+Error message.
+Weights must total 100%.
+
+
+TEST 8 - Invalid Menu Option
+
+Menu Selection: 9
+
+Expected:
+Error message.
+User is asked to select an option from 1-7.
+
+
+TEST 9 - Empty Student Name
+
+Student Name:
+
+Expected:
+Error message.
+User is asked to enter a student name.
+
+
+TEST 10 - Reset Function
+
+Enter valid student information.
+Select option 5.
+Confirm with Y.
+
+Expected:
+All student data is cleared.
+Confirmation message is displayed.
+
+
+TEST 11 - Target Grade
+
+Current grades entered.
+Target Grade: 90%
+
+Expected:
+Program calculates the required final exam score.
+
+
+TEST 12 - Exit
+
+Select option 7.
+
+Expected:
+Program displays:
+"Thank you for using the Student Grade Calculator."
+"Goodbye!"
